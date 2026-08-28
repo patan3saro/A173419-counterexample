@@ -1,0 +1,16 @@
+|F_1| = 1
+|F_2| = 2
+|F_3| = 8
+|F_4| = 59
+|F_5| = 663
+|F_6| = 10609
+|F_7| = 225219
+a(1)..a(108) match OEIS: True
+p = 3359: prime True, chain valid True, length 7, endpoint True, a(p) = 7, a(p-1) = 8
+p = 3623: prime True, chain valid True, length 8, endpoint True, a(p) = 8, a(p-1) = >= 9
+p = 4909: prime True, chain valid True, length 7, endpoint True, a(p) = 7, a(p-1) = 8
+p = 4943: prime True, chain valid True, length 8, endpoint True, a(p) = 8, a(p-1) = >= 9
+counterexamples with a(p) <= 8 below 5000: [3359, 3623, 4909, 4943]
+pairs undecided at depth 8: [3323, 3803, 3929, 3947, 4139, 4583, 4783, 4871, 4987]
+matches expected list: True
+all undecided pairs have a(p) = a(p-1) = 9: True
