@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "A173419-counterexample: counterexamples to Kamenetsky's conjecture on OEIS A173419"
+authors:
+  - family-names: "Patanè"
+    given-names: "Rosario"
+    affiliation: "Télécom SudParis, Institut Polytechnique de Paris"
+version: "1.0.0"
+date-released: "2026-09-11"
+license: MIT
+repository-code: "https://github.com/patan3saro/A173419-counterexample"
+keywords:
+  - integer complexity
+  - arithmetic chains
+  - OEIS
+  - A173419
